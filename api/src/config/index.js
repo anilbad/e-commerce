@@ -8,7 +8,7 @@ const config = {
     useNewUrlParser: true,
   },
   jwt: {
-    accessExpirationMinutes: 60,
+    accessExpirationMinutes: 1,
     secret: "2r5u8x/A%D*G-KaPdSgVkYp3s6v9y$B&",
   },
 };

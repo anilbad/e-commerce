@@ -29,7 +29,6 @@ const login = catchAsync(async (req, res) => {
       token,
     });
   } catch (e) {
-    console.log(e);
     res.status(e.statusCode).send({
       errors: [
         {
